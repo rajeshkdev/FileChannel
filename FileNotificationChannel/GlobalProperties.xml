@@ -1,0 +1,7 @@
+﻿<prop:GlobalProperties xmlns:bsd="http://www.biztalk360.com/alarms/notification/basetypes"
+                       xmlns="http://www.biztalk360.com/alarms/notification/basetypes"
+                       xmlns:prop="http://www.biztalk360.com/alarms/notification/properties">
+  <Section Name="file-settings" DisplayName="File Settings">
+    <TextBox Name="file-path" DisplayName="File Path" IsMandatory="true" Tooltip="The File path, where messages will be transmitted." DefaultValue="C:\Windows\Temp"  Type="text"/>
+  </Section>
+</prop:GlobalProperties>

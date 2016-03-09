@@ -1,0 +1,6 @@
+﻿<prop:AlarmProperties xmlns="http://www.biztalk360.com/alarms/notification/basetypes"
+                      xmlns:prop="http://www.biztalk360.com/alarms/notification/properties"
+                      Name="file-settings"
+                      DisplayName="File Settings">
+  <TextBox Name="file-override-path" DisplayName="File Path (Override)" IsMandatory="false" Disabled="false" Tooltip="File Path (Override)" DefaultValue="" Type="text" MaxLength="1000" />
+</prop:AlarmProperties>
