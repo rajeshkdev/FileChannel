@@ -58,7 +58,7 @@ namespace FileNotificationChannel
 
             //Save to Disk
             string filePath = string.IsNullOrEmpty(folderOverride) ? fileFolder : folderOverride;
-            string fileLocation = Path.Combine(filePath, Guid.NewGuid().ToString(), ".txt");
+            string fileLocation = Path.Combine(filePath, Guid.NewGuid().ToString() + ".txt");
             using (FileStream fs = new FileStream(fileLocation, FileMode.CreateNew))
             {
                 fs.Write(Encoding.UTF8.GetBytes(message), 0, message.Length);
